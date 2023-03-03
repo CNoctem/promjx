@@ -1,0 +1,38 @@
+{
+  "receiver": "test",
+  "status": "firing",
+  "alerts": [
+    {
+      "status": "firing",
+      "labels": {
+        "alertname": "my_cool_alert",
+        "instance": "0",
+        "service": "curl",
+        "severity": "warning"
+      },
+      "annotations": {
+        "description": "This is a description.",
+        "summary": "This is a summary"
+      },
+      "startsAt": "2020-07-23T01:05:36Z",
+      "endsAt": "0001-01-01T00:00:00Z",
+      "generatorURL": "http://prometheus.int.example.net/<generating_expression>",
+      "fingerprint": "469e9461f9028678"
+    }
+  ],
+  "groupLabels": {},
+  "commonLabels": {
+    "alertname": "my_cool_alert",
+    "instance": "0",
+    "service": "curl",
+    "severity": "warning"
+  },
+  "commonAnnotations": {
+    "description": "This is a description.",
+    "summary": "This is a summary"
+  },
+  "externalURL": "https:///console-openshift-console.apps.sbx-ocs.khb.hu/monitoring",
+  "version": "4",
+  "groupKey": "{}/{alertname=\"my_cool_alert\"}:{}",
+  "truncatedAlerts": 0
+}
